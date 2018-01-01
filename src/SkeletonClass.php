@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Skeleton;
+namespace BVAccel\Skeleton;
 
 class SkeletonClass
 {

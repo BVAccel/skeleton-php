@@ -1,22 +1,22 @@
 {
-    "name": "spatie/:package_name",
+    "name": "bvaccel/:package_name",
     "description": ":package_description",
     "keywords": [
-        "spatie",
+        "bvaccel",
         ":package_name"
     ],
-    "homepage": "https://github.com/spatie/:package_name",
+    "homepage": "https://github.com/bvaccel/:package_name",
     "license": "MIT",
     "authors": [
         {
             "name": ":author_name",
-            "email": ":author_email",
-            "homepage": "https://spatie.be",
+            "email": "fullstack@bvaccel.com",
+            "homepage": "https://bvaccel.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.1"
+        "php": "^7.0"
     },
     "require-dev": {
         "larapack/dd": "^1.0",
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "BVAccel\\Skeleton\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "BVAccel\\Skeleton\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -41,10 +41,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Skeleton\\SkeletonServiceProvider"
+                "BVAccel\\Skeleton\\SkeletonServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
+                "Skeleton": "BVAccel\\Skeleton\\SkeletonFacade"
             }
         }
     }
